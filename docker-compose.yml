@@ -5,4 +5,6 @@ services:
     container_name: user_daemon
     volumes:
     - ./:/src
+    ports:
+    - "3000:3000"
     command: sleep infinity
