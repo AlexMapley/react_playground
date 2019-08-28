@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 class Table extends Component {
   render() {
     const { characterData } = this.props
+
     return (
       <table>
         <TableHeader />
@@ -12,11 +13,17 @@ class Table extends Component {
   }
 }
 
-const TableBody = () => {
-  return (
-    <tbody>
-    </tbody>
-  )
+const TableBody = props => {
+  const rows = props.characterData.map((row, index) => {
+    return (
+      <tr key={index}>
+        <td>{row.name}</td>
+        <td>{row.job}</td>
+      </tr>
+    )
+  })
+
+  return <tbody>{rows}</tbody>
 }
 
 const TableHeader = () => {
