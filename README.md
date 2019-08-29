@@ -8,3 +8,4 @@ Similar to https://github.com/AlexMapley/workstation, we will build a seperate l
 ## Tutorials
 - https://reactjs.org/tutorial/tutorial.html
 - https://www.taniarascia.com/getting-started-with-react/
+- https://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/
