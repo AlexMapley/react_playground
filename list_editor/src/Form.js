@@ -19,7 +19,7 @@ class Form extends Component {
       [name]: value,
     })
   }
-
+  
   render() {
     const { name, job } = this.state;
   
@@ -40,5 +40,8 @@ class Form extends Component {
       </form>
     );
   }
-  
 }
+
+
+
+export default Form;
